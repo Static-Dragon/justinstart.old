@@ -1,0 +1,24 @@
+div.NPR{
+display: inline;
+padding-left: 100px;
+}
+div.Ars{
+	display: inline;
+	float: left;
+    padding-left: 100px;
+    padding-top: 234px;
+   
+}
+
+@media screen and (max-width: 1396px) {
+   
+	div.Ars{
+		display: none;
+	}
+}
+@media screen and (max-width: 1046px) {
+   
+	div.NPR{
+		display: none;
+	}
+}
